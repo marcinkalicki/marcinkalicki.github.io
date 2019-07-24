@@ -1,0 +1,27 @@
+
+
+#name:hover{
+    background-color: green;
+}
+#name:focus {
+border: 3xp solid red;
+}
+
+.customer:first-child {
+    background-color: aqua;
+}
+
+.customer:last-child{
+    background-color: blue;
+}
+
+.customer:nth-child{
+   color:lawngreen;
+}
+
+.customer:nth-last-child(3){
+    color:chocolate;
+}
+.customer:nth-child(3n -1) {
+    background-color: cornflowerblue;
+}

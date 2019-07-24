@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Zadanie domowe - Formularz HTML5</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-    <form action="https://formspree.io/marcink1w-wa@wp.pl" method="POST">
+   
+    <!-- Zadanie domowe zrob z wykorzystaniem serwisu https://formspree.io -->
+    
+    <form action="https://formspree.io/l.badocha@arena108.pl" method="POST">
         <label for="name">Imię:</label>
         <input type="text" name="name" id="name">
 
@@ -38,14 +42,15 @@
         <input type="radio" name="gender" value="female" id="female"><label for="female">Kobieta</label>
         <br>
 
-       
+        <br>
+        <label for="message">Wiadomość: </label>
+        <textarea name="message" id="message"></textarea>
+        <br>
         <input type="checkbox" id="agreement" name="agreement">
         <label for="agreement">Wyrażam zgodę na przetwarzanie danych osobowych</label>
         <br>
-    
-        <label for="message">Wiadomość: </label>
-        <textarea name="message" id="message"></textarea>
         <input type="submit" value="Send">
     </form>
 </body>
+
 </html>
