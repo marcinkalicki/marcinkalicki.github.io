@@ -1,0 +1,18 @@
+body {
+
+    background-color: bisque;
+    color: aliceblue;
+}
+
+#background-img {
+    background-color: blueviolet;
+    background-image: url(../img/truskawka.jpg)
+    background-repeat: repeat-y;
+    background-position: top center;
+    backgorund-size: 5%;
+    background-attachment: fixed;
+    
+
+
+}
+

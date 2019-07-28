@@ -1,0 +1,27 @@
+.box{
+    width: 150px;
+    height: 150px;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.box:hover{
+    cursor: pointer;
+}
+
+.box-width {
+    background-color: chartreuse;
+    transition: width 4s linear;
+}
+.boxheight {
+
+    background-color: darkolivegreen;
+    transition: height 3s ease-in;
+}
+.box-height{
+    height: 300px
+}
+.box-width-height:hover{
+    transition: height 3s, width 2s;
+} 
