@@ -1,0 +1,95 @@
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+}
+.square {
+    width: 97px;
+    height: 97px;
+    display: flex;
+    border: 1px solid white;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#a1 {
+    background-color:red;
+
+}
+#A {
+    background-color: pink;
+}
+
+
+#b2 {
+    background-color: blue;
+
+}
+#B {
+    background-color:grey;
+}
+
+#c3 {
+    background-color:green;
+}
+#C {
+    background-color: violet;
+}
+
+
+
+#d4 {
+    background-color:yellow;
+}
+#D {
+    background-color: green;
+}
+
+#e5 {
+    background-color:black;
+}
+#E {
+    background-color: red;
+}
+
+#f6 {
+    background-color:orange;
+}
+#F {
+    background-color: blue;
+}
+
+
+#g7 {
+    background-color:violet;
+}
+#G {
+    background-color: orange;
+}
+
+#h8 {
+    background-color:grey;
+}
+
+#H {
+    background-color: yellow;
+}
+#i9 {
+    background-color:pink;
+}
+#I {
+    background-color: black;
+}

@@ -1,0 +1,120 @@
+body{
+    font-family: 'Relaway', sans-serif;
+    font-size: 30;
+}
+
+h1{
+    color:white;
+  }
+
+h2{
+      color:white;
+  }
+
+a{
+    color: #c2c2c2;
+  /*  translaltion:*/
+}
+
+.main-from {
+    background-image: url(../warsztaty/form-background.jpg);
+    background-size: 100%;
+}
+
+
+
+a:hover {
+    color: #e38f42;
+}
+
+p {
+   color:#888;
+}
+
+.btn{
+padding: 15px 20px;
+
+} 
+
+.btn-orange{
+    background-color: #e38f42;
+    border: 0;
+}
+
+.btn-gray {
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 0;
+}
+
+.btn-gray:hover {
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+section, footer {
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-form input,
+.main-form textarea

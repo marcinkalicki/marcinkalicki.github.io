@@ -1,0 +1,137 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Open Sans", "sans-serif";
+	columns: #777;
+	margin:center;
+}
+
+/* zły margine*/
+h1, h2, .button, nav a, input [type="submit"]{
+	text-transform: uppercase;
+}
+
+hr{
+	background-color: #007bff;
+	border: 0;
+	height: 1px;
+	width: 100px;
+}
+
+.button {
+	text-decoration: none;
+	border: 1px solid #007bff;
+	margin: auto;
+	display: inline-block;
+	padding: 15px 20px;
+	transition: all 1s;
+	color: #333;
+	background-color: transparent;
+}
+
+.button:hover{
+	background-color: #007bff;
+	color:#fff;
+}
+
+.section {
+	text-align: center;
+	padding: 130px 0;
+}
+
+.section-heder {
+	margin-bottom: 75px;
+}
+
+h2 {
+	margin-bottom: 20px;
+	color:#333;
+	letter-spacing: 1px;
+	font-size: 0%;
+	font-weight: 20px;
+}
+
+.contener { 
+
+}
+/*style heder*/
+
+.main-heder {
+	height: 70vh;
+	background-image: url(../zdjęcia/header.jpg);
+	background-size: cover;
+	background-position: center;
+	justify-content:center;
+	align-items: center;
+	text-align: center;
+}
+
+
+.main-header-contener {
+padding-top: 100px;
+}
+
+.main-header h1{
+	border-radius: 90%;
+}
+
+.main-header p {
+	font-size: 1.5em;
+	margin: 40px 0;
+	color: #333;
+
+}
+.main-heder span {
+	color: #007bff;
+
+}
+
+/*style nav*/
+.main-nav{
+	position: sticky;
+	top: 0%;
+	background-color: #007bff;
+	z-index: 100;
+
+
+}
+.main-nav-menu{
+	margin:0;
+	
+}
+/*style about*/
+
+.about-image {
+	border-radius: 50%;
+	max-width: 450px;
+	max-height: 450px;
+
+
+}
+/*style portfolio*/
+.portfolio {
+	background-color: #f2fled;
+
+}
+.portfolio-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between
+}
+
+.portfolio-item{
+	flex-basis: 25%;
+	height: 250px;
+	margin: 0;
+	position: relative;
+}
+.portfolio-item img {
+	width: 100%;
+	height: 100;
+	object-fit: cover;
+	object-position: center;
+}
+
+

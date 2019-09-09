@@ -1,0 +1,39 @@
+*
+form {
+    background-color:#042f52;
+    color: black ;
+    width: 600px;
+    padding: 20px;
+}
+
+form input, form select {
+    margin-bottom: 10px;
+}
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form select, form input[type="text"], form input[type="tel"], form input[type="email"], textarea{
+    width: 300px
+    background-color#2b4a64;
+    color:  rgb(24, 23, 23);
+    border: #2b4a64;
+    height: 25px;
+    }
+
+form textarea{
+    line-height: normal;
+}
+
+
+form input[type="checkbox"], input[type="radio"]{
+    float: left;
+}
+
+form input[type ="submit"] {
+    background-color: #46e;
+    border: #2b4a64 1px ;
+
+}
+

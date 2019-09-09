@@ -1,0 +1,22 @@
+.exemple{
+    height: 250px;
+    background-color: chartreuse;
+}
+
+.exemple2 {
+    height: 450px;
+    background-color: blueviolet;
+}
+
+.item {
+    height: 350px;
+    background-color: cornsilk;
+    border: 1 px solid green;
+}
+
+.item:nth-child(2n){
+    background-color: aqua;
+}
+.carousel-inner{
+    height: 650px;
+}
