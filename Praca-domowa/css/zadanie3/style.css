@@ -1,0 +1,64 @@
+.header {
+        background-size: cover;    
+        background-position: center;
+       	justify-content:center;
+	align-items: center;
+        font-size: 1.3em;
+        font-family: Verdana,Geneva,sans-serif; 
+        letter-spacing: 2px;
+}
+
+h2 {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+}
+
+@media (min-width: 1170px) {
+	.header {
+        height:96vh;
+        background-image: url(obrazy/man-1.jpg);
+        color: white;     
+        display: flex;
+        justify-content: left;
+        }
+
+        .main-header-content {
+        margin-left: 2%;
+        }
+
+}
+@media (max-width: 1169px) {
+
+	.header {
+        height:80vh;
+        background-image: url(obrazy/man-2.jpg);
+        color: white; 
+        text-align: left;     
+        display: flex;
+        justify-content: right;
+
+        }
+        .main-header-content {
+        margin-right: 2%;
+}
+}
+
+@media (max-width: 991px) {
+	.header {
+        background-image: url(obrazy/man-1.jpg);
+        height:50vh;
+        color: black;
+        display: flex;
+        font-size: 0.5em;
+        align-items: center;
+        text-align: center;
+}
+    
+.main-header-content {
+        margin-inline: 30%;
+        margin-top: 60vh;
+        align-items: center;
+        text-align: center;     
+}
+}
